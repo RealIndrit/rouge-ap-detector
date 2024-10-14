@@ -121,7 +121,7 @@ int main(void) {
                 wprintf(L"  EXPECTED: %d\n", TARGET_EXPECTED_RESPONSE);
                 wprintf(L"  FOUND: %d\n", pBssList->dwNumberOfItems);
             } else {
-                wprintf(L"NO MitM FOUND");
+                wprintf(L"NO MitM FOUND for %s", TARGET_SSID);
             }
         }
     }

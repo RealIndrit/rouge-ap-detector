@@ -4,7 +4,6 @@ project(WifiHelper C)
 set(CMAKE_C_STANDARD 11)
 
 add_library(wlanapi IMPORTED STATIC)
-
 set_target_properties(wlanapi PROPERTIES IMPORTED_LOCATION "C:/WINDOWS/System32/wlanapi.dll")
 
 add_executable(WifiHelper main.c)
