@@ -14,6 +14,7 @@ int main(void) {
     DWORD dwCurVersion = 0;
     DWORD dwResult = 0;
     int dwRetVal = 0;
+
     PWLAN_INTERFACE_INFO_LIST pIfList = NULL;
     PWLAN_INTERFACE_INFO pIfInfo = NULL;
 
